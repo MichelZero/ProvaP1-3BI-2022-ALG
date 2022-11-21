@@ -12,8 +12,9 @@
 # número 66 é 1 + 2 + 3 + 6 + 11 + 22 + 33 = 78.
 
 # entrada de dados
-valorF = int(input("Digite um numero: "))
-valorW = valorF
+valor = int(input("Digite um numero: "))
+valorF = valor
+valorW = valor
 somaF = 0
 somaW = 0
 
@@ -27,10 +28,14 @@ for i in range(1, valorF):
 print(f"A soma dos divisores de {valorF} é  {somaF}")
 
 # usando o WHILE
-while valorW > 0:
-    if valorW % i == 0:
-        somaW = somaW + i
+""" while valorW > 1:
     valorW = valorW - 1
+    if valorW % i == 0:
+        somaW = somaW + i """
+while valorW > 1:
+    valorW = valorW - 1
+    if valorF % valorW == 0:
+        somaW = somaW + valorW
 
 # saida de dados para o WHILE
-print(f"A soma dos divisores de {valorW} é  {somaW}")
+print(f"A soma dos divisores de {valor} é  {somaW}")
