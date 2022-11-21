@@ -18,6 +18,8 @@ valorW = valor
 somaF = 0
 somaW = 0
 
+# resposta usando for
+######################################################
 # processamento de dados
 # usando o FOR
 for i in range(1, valorF):
@@ -27,6 +29,8 @@ for i in range(1, valorF):
 # saida de dados para o FOR
 print(f"A soma dos divisores de {valorF} é  {somaF}")
 
+# resposta usando WHILE
+###########################################################
 # usando o WHILE
 """ while valorW > 1:
     valorW = valorW - 1
