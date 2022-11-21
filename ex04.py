@@ -26,7 +26,7 @@ for i in range(1, valorF):
     if valorF % i == 0:
         somaF = somaF + i
         
-# saida de dados para o FOR
+# Saida de dados para o FOR
 print(f"A soma dos divisores de {valorF} é  {somaF}")
 
 # resposta usando WHILE
@@ -37,11 +37,13 @@ print(f"A soma dos divisores de {valorF} é  {somaF}")
 while valorW > 1:
     valorW = valorW - 1
     if valorW % i == 0:  # erro aqui
-        somaW = somaW + i """
+        somaW = somaW + i 
+"""
+
 while valorW > 1:
     valorW = valorW - 1
     if valorF % valorW == 0:
         somaW = somaW + valorW
 
-# saida de dados para o WHILE
+# Saida de dados para o WHILE
 print(f"A soma dos divisores de {valor} é  {somaW}")
