@@ -27,22 +27,22 @@ valor2 = float(input("Digite o valor pago pelo segundo cliente: "))
 valor3 = float(input("Digite o valor pago pelo terceiro cliente: "))
 
 # processamento de dados
-total = valor1 + valor2 + valor3
-media = total / 3
-if valor1 > 100:
+total = valor1 + valor2 + valor3 # soma dos valores pagos
+media = total / 3 # média dos valores pagos
+if valor1 > 100: # verifica se o valor pago pelo primeiro cliente é superior a 100 reais
     quantValorSuperior += 1
-if valor2 > 100:
+if valor2 > 100: # verifica se o valor pago pelo segundo cliente é superior a 100 reais
     quantValorSuperior += 1
-if valor3 > 100:
+if valor3 > 100: # verifica se o valor pago pelo terceiro cliente é superior a 100 reais
     quantValorSuperior += 1
-if valor1 < 50:
+if valor1 < 50: # verifica se o valor pago pelo primeiro cliente é inferior a 50 reais
     quantValorInferior += 1
-if valor2 < 50:
+if valor2 < 50: # verifica se o valor pago pelo segundo cliente é inferior a 50 reais
     quantValorInferior += 1
-if valor3 < 50:
+if valor3 < 50: # verifica se o valor pago pelo terceiro cliente é inferior a 50 reais
     quantValorInferior += 1
 
-# saida de dados
+# Saida de dados
 print("O valor total pago pelos três clientes é: ", total)
 print("O valor médio das compras efetuadas é: ", media)
 print("O número de cadastro dos clientes que efetuaram compras com valor superior a 100 reais é: ", quantValorSuperior)
