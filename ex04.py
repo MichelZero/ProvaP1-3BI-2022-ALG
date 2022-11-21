@@ -32,7 +32,9 @@ print(f"A soma dos divisores de {valorF} é  {somaF}")
 # resposta usando WHILE
 ###########################################################
 # usando o WHILE
-""" while valorW > 1:
+"""
+# esse trecho de código é para mostrar um possível erro 
+while valorW > 1:
     valorW = valorW - 1
     if valorW % i == 0:  # erro aqui
         somaW = somaW + i """
